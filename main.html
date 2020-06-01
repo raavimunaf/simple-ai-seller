@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple AI Seller</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="box"> 
+		<!-- this is the main chat box where ai seller bot and buyer will communicate -->
+<div id="messages">
+	<div class="sellerblock">
+		<div class="sellermessage">
+		Hi, What do you want to buy?</div>
+		<!-- write here anything you wish -->
+	</div>
+	<!-- 
+	<div class="buyerblock">
+		<div class="buyermessage">Mobile phone</div>
+	</div> -->
+	<!-- these blocks are just for example -->
+
+	<!-- now the hidden blocks  -->
+</div>
+<div id="hidden">
+	<div id="sellerblock" class="sellerblock">
+		<div class="sellermessage">
+		Hi, What do you want to buy?</div>
+		<!-- write here anything you wish -->
+	</div>
+	<div id="buyerblock" class="buyerblock">
+		<div class="buyermessage">Mobile phone</div>
+	</div>
+</div>
+<input id="input" onkeyup="taketheinput(event)">
+		
+	</div>
+<script type="text/javascript" src="seller.js"></script>
+</body>
+</html>
